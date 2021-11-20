@@ -43,7 +43,7 @@ async def alive(client: Client, message: Message):
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_photo(
         photo=f"{ALIVE_IMG}",
-        caption=f"""**➮ Hemloo vaimyaa mee [{BOT_NAME}](https://t.me/{BOT_USERNAME}) [Jass Vaiya](https://t.me/abra_ka_dabra_gili_gili_chuu) ka 🎧 mujikk bot 🎧**
+        caption=f"""**➮ Hemloo vaimyaa mee [{BOT_NAME}](https://t.me/{BOT_USERNAME}) [Jass Bhaiya](https://t.me/abra_ka_dabra_gili_gili_chuu) ka 🎧 mujikk bot 🎧**
 
 ✘ **Me sexy as always**
 
