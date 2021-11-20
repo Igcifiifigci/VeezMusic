@@ -52,10 +52,10 @@ async def _human_time_duration(seconds):
     command(["start", f"start@{BOT_USERNAME}"]) & filters.private & ~filters.edited
 )
 async def start_(client: Client, message: Message):
-    await message.reply_photo("https://te.legra.ph/file/3537b6200baef4fa4fb3c.jpg")
+    await message.reply_photo("https://te.legra.ph/file/535be705021cbf1dfa6f1.mp4")
     await message.reply_text(
-        f"""✨ **Wᴇʟᴄᴏᴍᴇ {message.from_user.mention()} !**\n
-🔥 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) Cᴀɴ Pʟᴀʏ Mᴜsɪᴄ Iɴ Yᴏᴜʀ Oᴘ Gʀᴏᴜᴩ Vᴏɪᴄᴇ Cʜᴀᴛ💖. Dᴇᴠᴇʟᴏᴩᴇᴅ Bʏ @DARKAMAN !**""",
+        f"""✨ ** Hello {message.from_user.mention()} vaiya mee PIKACHU.. [Jass Bhaiya](https://t.me/abra_ka_dabra_gili_gili_chuu) ka 🎧 mujikk bot..🎧**"""
+
         reply_markup=InlineKeyboardMarkup(
             [
                 [
